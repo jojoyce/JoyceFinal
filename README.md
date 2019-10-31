@@ -12,7 +12,7 @@ I became interested in this topic almost on the first day of our course when Pro
 There are many great film and TV website examples that I can draw inspiration from, for example:
 1. https://knivesout.movie/ This is my favorite one. I really like the loading page as well as the mousemove animation of the background of this website that creates a sense of 3D experience for the viewers.
 For the mousemove animation effect, I wonder if I can follow this youtube tutorial: youtube.com/watch?v=Trxxw4tdaHQ
-<img scr="/images/knivesloading.">
+<img scr="/images/knivesloading.png" alt="knivesoutloading">
 2. https://www.onceuponatimein1969.com/ This is the website for Once Upon a Time in Hollywood. I feel the nostalgic style fits my targeted TV shows "Friends" better. I like the big shaking 1969 at the home page as well as the map of Hollywood created for exploration of celebrities events at that time. 
 I'm still in search for more inspirations right now and will put more references here once I do.
 
