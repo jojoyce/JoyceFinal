@@ -16,7 +16,7 @@ For the mousemove animation effect, I wonder if I can follow this youtube tutori
 2. https://www.onceuponatimein1969.com/ This is the website for Once Upon a Time in Hollywood. I feel the nostalgic style fits my targeted TV shows "Friends" better. I like the big shaking 1969 at the home page as well as the map of Hollywood created for exploration of celebrities events at that time. 
 I'm still in search for more inspirations right now and will put more references here once I do.
 <img src="images/1969home.png" alt="1969home">
-<img src="images/1969map.png" alt="1969map">
+<img src="images/1969maps.png" alt="1969map">
 
 
 ### Process:
