@@ -1,29 +1,36 @@
 * {
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 .slider-container {
   padding: 30px 200px;
   position: absolute;
-  z-index: 1;
+  z-index: 200;
+
 }
 
-.slider-trigger {
+.toggle {
   display: flex;
   flex-direction: column;
   text-decoration: none;
+  z-index: 9999999;
 }
+
+
 
 .smoke {
   transition: opacity 0.5s ease-in-out;
   opacity: 0;
 }
 
-.slider-trigger:hover .smoke {
+.toggle:hover .smoke {
   transition: opacity 0.5s ease-in-out;
   opacity:0.8;
 }
+
+
 
 .cup {
   display: flex;
@@ -31,10 +38,131 @@
 }
 
 .cup p{
+  transition: transform 0.8s;
   padding-left: 10px;
   color: #ECECEC;
   font-size: 20px;
   font-family: 'Yeon Sung', cursive;
+
+}
+
+.toggle:hover .cup p {
+  transform: translate(15px, 0px);
+}
+
+.navbar {
+  transform: translateY(-100%);
+  transition: transform 0.5s ease-in-out;
+}
+
+.navbar-active {
+  transform: translateY(0%);
+}
+
+.navbar {
+  background-image: url(images/bgblack.jpg);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index:100;
+}
+
+.navbartop {
+  height: 14%;
+}
+
+.navbarfooter {
+  height: 22%;
+}
+
+.navbarcontent {
+  height: 64%;
+  padding: 70px 300px;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbarleft {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navcontainer {
+  height: 30%;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+}
+
+.navline {
+  padding-top: 10px;
+  width: 60px;
+  height: 5px;
+  border-bottom: 1px solid #504E4E;
+  transition: transform 0.3s;
+  transform-origin:left center;
+}
+
+.navleftheader {
+  padding-left: 50px;
+  transition: transform 0.3s;
+}
+
+.navno {
+  font-family: 'Niconne', cursive;
+  color: #BB0000;
+  font-size: 20px;
+}
+
+.navtext {
+  color: #ECECEC;
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 65px;
+}
+
+.navcontainer:hover .navleftheader{
+  transform: translate(30px, 0px);
+}
+
+.navcontainer:hover .navline {
+  transform: scale(1.8,1)
+}
+
+.navbarright {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navcontact {
+  display: flex;
+  flex-direction: row;
+}
+
+.navrightheader {
+  padding-left: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.navrightheader a {
+  font-family: 'Rufina', serif;
+  padding-top: 10px;
+  color: #ECECEC;
+  font-size: 20px;
+  text-decoration: none;
+  transition: transform 0.3s;
+}
+
+.navrightheader a:hover {
+  transform: translate(30px, 0px);
 }
 
 .welcome {
