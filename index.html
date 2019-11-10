@@ -7,7 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" type="text/css" href="custom.css" media="all">
-  <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great|Niconne|Rufina|Yeon+Sung&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Buda:300|Fredericka+the+Great|Niconne|Rufina|Simonetta|UnifrakturMaguntia|Walter+Turncoat|Yeon+Sung&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
 </head>
 
 <body>
@@ -16,7 +17,7 @@
       <img class="smoke" src="images/coffeesmoke.png" width=6%>
       <div class="cup">
         <img src="images/coffeecup.png" width=6%>
-        <p>CENTRAL PERK MENU</p>
+        <p>Central Perk Menu</p>
       </div>
     </a>
   </div>
@@ -26,27 +27,27 @@
     <div class="navbartop"></div>
     <div class="navbarcontent">
       <div class="navbarleft">
-        <a href="#" class="navcontainer">
+        <div class="navcontainer">
           <div class="navline"></div>
           <div class="navleftheader">
             <p class="navno">01.</p>
-            <p class="navtext">Synopsis</p>
+            <a href="#" class="navtext1">Synopsis</a>
           </div>
-        </a>
-        <a href="#" class="navcontainer">
+        </div>
+        <div class="navcontainer">
           <div class="navline"></div>
           <div class="navleftheader">
             <p class="navno">02.</p>
-            <p class="navtext">Cast & Crew</p>
+            <a href="#" class="navtext2">Cast & Crew</a>
           </div>
-        </a>
-        <a href="#" class="navcontainer">
+        </div>
+        <div class="navcontainer">
           <div class="navline"></div>
           <div class="navleftheader">
             <p class="navno">03.</p>
-            <p class="navtext">Videos</p>
+            <a href="#" class="navtext3">Videos</a>
           </div>
-        </a>
+        </div>
       </div>
       <div class="navbarright">
         <div class="navcontact">
@@ -60,20 +61,60 @@
         </div>
       </div>
     </div>
-    <div class="navbarfooter"></div>
+    <div class="navbarfooter">
+    </div>
 
   </div>
 
+  <div class="home">
+    <div class="hometop"></div>
+    <div class="homebody">
+      <div class="homeleft">
+        <h1>Friends</h1>
+        <h2>The one with the 25th anniversary</h2>
+      </div>
+      <div class="homeright"></div>
+    </div>
+  </div>
+
+<footer>
+  <div class="footertop"></div>
+  <hr>
+  <div class="footerbottom">
+    <div class="contact">
+      <ul>
+        <li><a href="https://www.facebook.com/friends.tv/">Fb</a></li>
+        <li><a href="https://www.instagram.com/friends/">Ins</a></li>
+        <li><a href="https://twitter.com/FriendsTV">Tw</a></li>
+      </ul>
+    </div>
+
+    <div class="bgmusic">
+      <audio autoplay loop id="myaudio" src="videos/themesong.mp3"></audio>
+      <a onClick="togglePlay()"><i class="fas fa-compact-disc fa-spin"></i></a>
+      <p>We are here for you.</p>
+    </div>
+
+    <div class="available">
+      <ul>
+        <li>Now Available ---</li>
+        <li><a href="https://www.netflix.com/title/70153404">Watch Now ---</a></li>
+      </ul>
+    </div>
+
+  </div>
+</footer>
 
   <div class="welcome">
     <div class="videocontainer">
       <video autoplay loop muted>
-        <source src="videos/home.mp4" type="video/mp4">
+        <source src="videos/home_1.mp4" type="video/mp4">
       </video>
     </div>
   </div>
 
-<script src="main.js"></script>
+
+  <script src="main.js"></script>
 </body>
 
 

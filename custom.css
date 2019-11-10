@@ -5,7 +5,7 @@
 }
 
 .slider-container {
-  padding: 30px 200px;
+  padding: 30px 250px;
   position: absolute;
   z-index: 200;
 
@@ -42,7 +42,7 @@
   padding-left: 10px;
   color: #ECECEC;
   font-size: 20px;
-  font-family: 'Yeon Sung', cursive;
+  font-family: 'Walter Turncoat', cursive;
 
 }
 
@@ -87,7 +87,7 @@
 }
 
 .navbarleft {
-  width: 70%;
+  width: 65%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -97,7 +97,6 @@
   height: 30%;
   display: flex;
   flex-direction: row;
-  text-decoration: none;
 }
 
 .navline {
@@ -120,10 +119,39 @@
   font-size: 20px;
 }
 
-.navtext {
+
+.navleftheader a {
   color: #ECECEC;
   font-family: 'Fredericka the Great', cursive;
   font-size: 65px;
+  text-decoration: none;
+}
+
+.navtext1 {
+opacity: 0;
+transition: all 1s ease-in-out;
+}
+
+.navtext1.appear {
+  opacity:1;
+}
+
+.navtext2 {
+opacity: 0;
+transition: all 1s ease-in-out;
+}
+
+.navtext2.appear {
+  opacity:1;
+}
+
+.navtext3 {
+opacity: 0;
+transition: all 1s ease-in-out;
+}
+
+.navtext3.appear {
+  opacity:1;
 }
 
 .navcontainer:hover .navleftheader{
@@ -135,7 +163,7 @@
 }
 
 .navbarright {
-  width: 30%;
+  width: 35%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -147,9 +175,17 @@
 }
 
 .navrightheader {
+
+  width: 50%;
   padding-left: 50px;
   display: flex;
   flex-direction: column;
+  opacity:0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.navrightheader.appear{
+  opacity:1;
 }
 
 .navrightheader a {
@@ -162,7 +198,139 @@
 }
 
 .navrightheader a:hover {
-  transform: translate(30px, 0px);
+  transform: translate(20px, 0px);
+}
+
+
+
+.home {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 50;
+  display: flex;
+  flex-direction: column;
+}
+
+.hometop {
+  height: 14%;
+}
+
+.homebody {
+  height: 64%;
+  padding: 0px 100px;
+}
+
+.homeleft {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.home h1 {
+  color: #CD0000;
+  opacity: 0.9;
+  font-size: 160px;
+  font-family: 'UnifrakturMaguntia', cursive;
+}
+
+.home h2 {
+  text-align: center;
+  color: #ECECEC;
+  font-size: 25px;
+  font-family: 'Buda', cursive;
+  opacity: 0.8;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 13%;
+  z-index: 60;
+  width: 80%;
+  margin: 0px 160px;
+}
+
+footer hr {
+  width: 5%;
+  color: #504E4E;
+  opacity: 0.8;
+}
+
+.footerbottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contact li {
+  float: left;
+  font-family: 'Simonetta', cursive;
+  font-size: 20px;
+  list-style: none;
+  display: inline;
+  line-height: 60px;
+  text-decoration: none;
+}
+.contact li a{
+  padding-right:30px;
+  color: #ECECEC;
+  opacity: 0.8;
+  text-decoration: none;
+  transition: color 0.6s;
+}
+
+.contact li a:hover {
+  color: #FF5151;
+
+}
+
+.bgmusic {
+  display: flex;
+  flex-direction: row;
+}
+.bgmusic a{
+  color: #ECECEC;
+  opacity: 0.8;
+  line-height: 60px;
+  font-size: 25px;
+  text-decoration: none;
+  transition: color 0.6s;
+}
+
+.bgmusic a:hover{
+  color: #FF5151;
+}
+.bgmusic p {
+  color: #ECECEC;
+  opacity: 0.8;
+  line-height: 60px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-family: 'Simonetta', cursive;
+}
+
+.available li {
+  color: #ECECEC;
+  font-family: 'Simonetta', cursive;
+  font-size: 20px;
+  list-style: none;
+  display: inline;
+  line-height: 60px;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.available li a{
+  color: #ECECEC;
+  text-decoration: none;
+  transition: color 0.6s;
+}
+
+.available li a:hover {
+  color: #FF5151;
 }
 
 .welcome {
@@ -174,9 +342,6 @@
   justify-content: center;
   overflow: hidden;
 }
-
-
-
 .welcome video {
   position: absolute;
   right: 0;
