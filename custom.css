@@ -72,15 +72,21 @@
 }
 
 .navbartop {
-  height: 14%;
+  height: 10%;
 }
 
 .navbarfooter {
-  height: 22%;
+  height: 25%;
+  opacity: 0;
+  transition: all 1s ease-in-out;
+}
+
+.navbarfooter.appear {
+  opacity:1;
 }
 
 .navbarcontent {
-  height: 64%;
+  height: 55%;
   padding: 70px 300px;
   display: flex;
   flex-direction: row;
@@ -199,6 +205,22 @@ transition: all 1s ease-in-out;
 
 .navrightheader a:hover {
   transform: translate(20px, 0px);
+}
+
+
+.navbarfooter {
+  position: absolute;
+  bottom: 0;
+  height: 13%;
+  z-index: 60;
+  width: 80%;
+  margin: 0px 160px;
+}
+
+.navbarfooter hr {
+  width: 5%;
+  color: #504E4E;
+  opacity: 0.8;
 }
 
 

@@ -4,26 +4,29 @@ const navSlider = () => {
   var navText1 = document.querySelector('.navtext1');
   var navText2 = document.querySelector('.navtext2');
   var navText3 = document.querySelector('.navtext3');
-  var contactinfo = document.querySelector('.navrightheader');
+  var contactInfo = document.querySelector('.navrightheader');
+  var navbarFooter = document.querySelector('.navbarfooter');
 
   burger.addEventListener('click',() => {
     nav.classList.toggle('navbar-active');
    if(nav.classList.contains('navbar-active')){
     setTimeout (function (){
     navText1.classList.add('appear');
-    contactinfo.classList.add('appear');
+    contactInfo.classList.add('appear');
+    navbarFooter.classList.add('appear');
   }, 400);
     setTimeout (function (){
   navText2.classList.add('appear');
-}, 800);
+}, 900);
     setTimeout (function (){
 navText3.classList.add('appear');
-}, 1200);
+}, 1400);
 }else {
   navText1.classList.remove('appear');
-  contactinfo.classList.remove('appear');
+  contactInfo.classList.remove('appear');
   navText2.classList.remove('appear');
   navText3.classList.remove('appear');
+  navbarFooter.classList.remove('appear');
 }
 
 
