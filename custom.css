@@ -76,7 +76,7 @@
 }
 
 .navbarfooter {
-  height: 25%;
+  height: 20%;
   opacity: 0;
   transition: all 1s ease-in-out;
 }
@@ -129,7 +129,7 @@
 .navleftheader a {
   color: #ECECEC;
   font-family: 'Fredericka the Great', cursive;
-  font-size: 65px;
+  font-size: 56px;
   text-decoration: none;
 }
 
@@ -211,7 +211,6 @@ transition: all 1s ease-in-out;
 .navbarfooter {
   position: absolute;
   bottom: 0;
-  height: 13%;
   z-index: 60;
   width: 80%;
   margin: 0px 160px;
@@ -267,14 +266,83 @@ transition: all 1s ease-in-out;
   opacity: 0.8;
 }
 
+.badge {
+  position: absolute;
+  z-index: 65;
+  top: 60px;
+  right: 140px;
+  width: 17%;
+  height: 21%;
+  border-left: 1px solid #ECECEC;
+  border-right: 1px solid #ECECEC;
+  opacity: 0.8;
+  display: flex;
+  flex-direction: row;
+}
+
+.leftline {
+  width: 3%;
+  border-top: 1px solid #ECECEC;
+  border-bottom: 1px solid #ECECEC;
+}
+
+.rw-words {
+  width: 94%;
+  font-family: 'Buda', cursive;
+  padding-top: 10px;
+  line-height: 1.5;
+}
+
+.rw-words-1 a{
+  text-decoration: none;
+}
+
+.rw-words-1 span{
+  width: 94%;
+	position: absolute;
+  text-align: center;
+	opacity: 0;
+	overflow: hidden;
+	animation: rotateWord 16s linear infinite 0s;
+}
+
+
+
+.rw-words-1 span:nth-child(2) {
+	animation-delay: 4s;
+}
+.rw-words-1 span:nth-child(3) {
+	animation-delay: 8s;
+}
+.rw-words-1 span:nth-child(4) {
+	animation-delay: 12s;
+}
+
+@keyframes rotateWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; -webkit-transform: translateY(-30px); transform: translateY(-30px); }
+	5% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px);}
+    22% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px); }
+	25% { opacity: 0; -webkit-transform: translateY(30px); transform: translateY(30px); }
+	80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+.rightline {
+  width: 3%;
+  border-top: 1px solid #ECECEC;
+  border-bottom: 1px solid #ECECEC;
+}
+
 footer {
   position: absolute;
   bottom: 0;
-  height: 13%;
+  height: 14%;
   z-index: 60;
   width: 80%;
   margin: 0px 160px;
 }
+
 
 footer hr {
   width: 5%;
