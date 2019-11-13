@@ -1,0 +1,143 @@
+.synwelcome {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: #F0E6D4;
+
+}
+
+.headphoto {
+  position: absolute;
+  z-index:20;
+  top: 0;
+  right: 0;
+}
+
+.headphoto img {
+  right: 0;
+  width: 100%;
+  height: auto;
+  max-width: 86%;
+  float: right;
+  opacity:0.9;
+}
+
+.synocontent {
+  top: 52%;
+  z-index: 22;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  padding-left: 14%;
+  padding-right: 8%;
+  justify-content: space-between;
+
+}
+
+.synoline {
+  padding-top: 10px;
+  width: 60px;
+  height: 5px;
+  border-bottom: 1px solid #D1BBAF;
+}
+
+.synocontent-left {
+  width: 5%;
+}
+.synocontent-mid {
+  width: 30%;
+  font-family: 'Simonetta', cursive;
+  font-style: italic;
+  font-size: 25px;
+  line-height: 1.3;
+}
+.synocontent-right {
+  width: 50%;
+  font-family: 'Buda', cursive;
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+
+.synheader {
+  position: absolute;
+  z-index: 21;
+  right: 71.5%;
+  bottom: -6.4%;
+}
+
+.synheader p{
+  color: #BF5F25;
+  font-size: 5vw;
+  font-family: 'Walter Turncoat', cursive;
+}
+
+
+.synocontact li {
+  float: left;
+  font-family: 'Simonetta', cursive;
+  font-size: 20px;
+  list-style: none;
+  display: inline;
+  line-height: 60px;
+  text-decoration: none;
+}
+.synocontact li a{
+  padding-right:30px;
+  color: #321402;
+  opacity: 0.8;
+  text-decoration: none;
+  transition: color 0.6s;
+}
+
+.synocontact li a:hover {
+  color: #FF5151;
+
+}
+
+.synobgmusic {
+  display: flex;
+  flex-direction: row;
+}
+
+.synobgmusic a{
+  color: #321402;
+  opacity: 0.8;
+  line-height: 60px;
+  font-size: 25px;
+  text-decoration: none;
+  transition: color 0.6s;
+}
+
+.synobgmusic a:hover{
+  color: #FF5151;
+}
+.synobgmusic p {
+  color: #321402;
+  opacity: 0.8;
+  line-height: 60px;
+  padding-left: 20px;
+  font-size: 20px;
+  font-family: 'Simonetta', cursive;
+}
+
+.synoavailable li {
+  color: #321402;
+  font-family: 'Simonetta', cursive;
+  font-size: 20px;
+  list-style: none;
+  display: inline;
+  line-height: 60px;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.synoavailable li a{
+  color: #321402;
+  text-decoration: none;
+  transition: color 0.6s;
+}
+
+.synoavailable li a:hover {
+  color: #FF5151;
+}
