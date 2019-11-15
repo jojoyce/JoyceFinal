@@ -338,7 +338,7 @@ footer {
   position: absolute;
   bottom: 0;
   height: 14%;
-  z-index: 60;
+  z-index: 100;
   width: 80%;
   margin: 0px 160px;
 }
