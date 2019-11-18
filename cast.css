@@ -28,7 +28,7 @@
 
 .slide1photo {
   position: absolute;
-  z-index:20;
+  z-index: 20;
   top: 0;
   left: 0;
 }
@@ -38,7 +38,7 @@
   width: 100%;
   height: auto;
   max-width: 44%;
-  opacity:0.9;
+  opacity: 0.9;
 }
 
 .castheader1 {
@@ -48,7 +48,7 @@
   bottom: 11%;
 }
 
-.castheader1 p{
+.castheader1 p {
   color: #BF5F25;
   font-size: 5vw;
   font-family: 'Walter Turncoat', cursive;
@@ -70,7 +70,7 @@
 
 .slide2photo2 {
   position: absolute;
-  z-index:30;
+  z-index: 30;
   top: 67%;
   right: 0;
 }
@@ -119,16 +119,14 @@
   opacity: 0;
 }
 
-
-
 .castheader2 {
   position: absolute;
   z-index: 21;
-  right:25.5%;
+  right: 25.5%;
   bottom: -15%;
 }
 
-.castheader2 p{
+.castheader2 p {
   color: #F0E6D4;
   font-size: 5vw;
   font-family: 'Walter Turncoat', cursive;
@@ -163,37 +161,46 @@
   font-family: 'Simonetta', cursive;
   font-style: italic;
   font-size: 25px;
-
 }
 
 .slide2content ul li {
   color: #321402;
-  transition: color 0.3s ease-in-out;
+  text-shadow: 0 0px 0px rgba(0, 0, 0, 0.19), 0 0px 0px rgba(0, 0, 0, 0.23);
+  transition: all 0.3s ease-in-out;
 }
 
 .slide2content ul li:hover {
+  text-shadow: 0 6px 6px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   color: #9F1C04;
 }
 
-.slidercontrol {
-  width: 100%;
-  margin-top: 6%;
-
-}
-.slidercontrol ul{
-  display: flex;
-  justify-content: center;
-}
-
-.slidercontrol ul li {
-  width: 5px;
-  height: 5px;
-  background: #321402;
-  border: 2px solid #321402;
-  border-radius: 50px;
-  margin: 10px;
+.buttons button {
+  z-index: 999;
+  font-size: 1.5vw;
+  background-color: transparent;
+  color: #321402;
   cursor: pointer;
+  outline: none;
+  border: none;
+  transition: color 0.3s ease-in-out;
 }
-.control ul li .selected {
-  background: transparent;
+
+.buttons button:hover {
+  color: #A16B55;
+}
+
+.buttons button#prev {
+  position: absolute;
+  left: 48%;
+  top: 16%;
+}
+
+.buttons button#next {
+  position: absolute;
+  right: 48%;
+  top: 16%;
+}
+
+.selected {
+  background: #321402;
 }
