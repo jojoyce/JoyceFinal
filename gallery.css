@@ -106,7 +106,7 @@ font-family: 'Walter Turncoat', cursive;
 
 
 
-.drop {
+.mondrop {
   top: 30%;
   left: 43%;
   position: absolute;
@@ -115,13 +115,13 @@ font-family: 'Walter Turncoat', cursive;
   transition: opacity 0.5s ease-in-out;
 }
 
-.drop img {
+.mondrop img {
   width: 100%;
   height: auto;
   max-width: 40%;
 }
 
-.drop.appear {
+.mondrop.appear {
   opacity:1;
 }
 
@@ -171,12 +171,14 @@ font-family: 'Walter Turncoat', cursive;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  transform: translateY(-100%);
   opacity: 0;
-  transition: opacity 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .monquote.appear {
-  opacity:1;
+  opacity: 1;
+  transform: translateY(0%);
 }
 
 .monquoteleft{
@@ -293,9 +295,260 @@ font-family: 'Walter Turncoat', cursive;
   justify-content: space-between;
 }
 
+.racheldrop {
+  top: 30%;
+  left: 43%;
+  position: absolute;
+  z-index: 97;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
 
+.racheldrop img {
+  width: 100%;
+  height: auto;
+  max-width: 40%;
+}
 
+.racheldrop.appear {
+  opacity:1;
+}
 
+.rachelquoteimg {
+  position: absolute;
+  z-index: 98;
+  left: 10%;
+  top: 16%;
+}
+
+.rachelquoteimg img {
+  width: 100%;
+  height: auto;
+  max-width: 24%;
+}
+
+.rachelquote {
+  height: 60%;
+  width: 100%;
+  position: absolute;
+  z-index: 98;
+  top:20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.rachelquote.appear {
+  opacity:1;
+  transform: translateY(0);
+}
+
+.phodrop {
+  top: 30%;
+  left: 43%;
+  position: absolute;
+  z-index: 97;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.phodrop img {
+  width: 100%;
+  height: auto;
+  max-width: 40%;
+}
+
+.phodrop.appear {
+  opacity:1;
+}
+
+.phoquoteimg {
+  position: absolute;
+  z-index: 98;
+  left: 10%;
+  top: 16%;
+}
+
+.phoquoteimg img {
+  width: 100%;
+  height: auto;
+  max-width: 24%;
+}
+
+.phoquote {
+  height: 60%;
+  width: 100%;
+  position: absolute;
+  z-index: 98;
+  top:20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.phoquote.appear {
+  opacity:1;
+  transform: translateY(0);
+}
+
+.jodrop {
+  top: 30%;
+  left: 43%;
+  position: absolute;
+  z-index: 97;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.jodrop img {
+  width: 100%;
+  height: auto;
+  max-width: 40%;
+}
+
+.jodrop.appear {
+  opacity:1;
+}
+
+.joquoteimg {
+  position: absolute;
+  z-index: 98;
+  left: 10%;
+  top: 16%;
+}
+
+.joquoteimg img {
+  width: 100%;
+  height: auto;
+  max-width: 23%;
+}
+
+.joquote {
+  height: 60%;
+  width: 100%;
+  position: absolute;
+  z-index: 98;
+  top:20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.joquote.appear {
+  opacity:1;
+  transform: translateY(0);
+}
+
+.chadrop {
+  top: 30%;
+  left: 43%;
+  position: absolute;
+  z-index: 97;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.chadrop img {
+  width: 100%;
+  height: auto;
+  max-width: 40%;
+}
+
+.chadrop.appear {
+  opacity:1;
+}
+
+.chaquoteimg {
+  position: absolute;
+  z-index: 98;
+  left: 10%;
+  top: 16%;
+}
+
+.chaquoteimg img {
+  width: 100%;
+  height: auto;
+  max-width: 23%;
+}
+
+.chaquote {
+  height: 60%;
+  width: 100%;
+  position: absolute;
+  z-index: 98;
+  top:20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.chaquote.appear {
+  opacity:1;
+  transform: translateY(0);
+}
+
+.rossdrop {
+  top: 30%;
+  left: 43%;
+  position: absolute;
+  z-index: 97;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.rossdrop img {
+  width: 100%;
+  height: auto;
+  max-width: 40%;
+}
+
+.rossdrop.appear {
+  opacity:1;
+}
+
+.rossquoteimg {
+  position: absolute;
+  z-index: 98;
+  left: 10%;
+  top: 16%;
+}
+
+.rossquoteimg img {
+  width: 100%;
+  height: auto;
+  max-width: 24%;
+}
+
+.rossquote {
+  height: 60%;
+  width: 100%;
+  position: absolute;
+  z-index: 98;
+  top:20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  transform: translateY(-100%);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.rossquote.appear {
+  opacity:1;
+  transform: translateY(0);
+}
 .mona:hover {
   opacity: 1;
 }
@@ -314,8 +567,6 @@ font-family: 'Walter Turncoat', cursive;
 .monf:hover {
   opacity: 1;
 }
-
-
 
 .gallerycontact li {
   float: left;
