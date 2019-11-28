@@ -22,16 +22,16 @@ I'm still in search for more inspirations right now and will put more references
 ### Process:
 So far I have searched for film and TV website examples to get inspired. Visually speaking, in my imagination my website would look a lot like OnceUponaTimein1969 in its nostalgic style. It should at least host: a home page, a trailer page(that directs viewers to some of the amazing clips in Friends), a map page (that maps out some important events happened in the show), a gallery (that displays some of the behind-the-scene fottages of the show) and a link to get tickets for the Boston pop-up.  I will also try to borrow some aniamtion effects from the KnivesOut and other websites that I can find later. My next steps would invovle more research on some amazing website examples and try to find contents (e.g. videos & images) to put on my website. During the reserach process, I will try out some animation effects tutorial to see if I can fully understand them and use them on my website. 
 
-#### Home page added:
+##### Home page added:
 <img src="READMEimg/home.png">
-#### Dropdown navbar added:
+##### Dropdown navbar added:
 <img src="READMEimg/navbar.png">
-#### Synopsis added:
+##### Synopsis added:
 <img src="READMEimg/synopsis.png">
-#### Cast & Crew with a content slider added:
+##### Cast & Crew with a content slider added:
 <img src="READMEimg/castcrew1.png">
 <img src="READMEimg/castcrew2.png">
-#### Quotes gallery added:
+##### Quotes gallery added:
 <img src="READMEimg/gallery.png">
-#### Each character card is linked with a quotes gallery page:
+##### Each character card is linked with a quotes gallery page:
 <img src="READMEimg/gallerydetailed.png">
