@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="custom.css" media="all">
+  <link rel="stylesheet" type="text/css" href="cast.css" media="all">
+  <link rel="stylesheet" type="text/css" href="synopsis.css" media="all">
+  <link rel="stylesheet" type="text/css" href="gallery.css" media="all">
+  <link rel="stylesheet" type="text/css" href="quiz.css" media="all">
+  <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Gloria+Hallelujah|Baloo+Bhaijaan|Buda:300|Fredericka+the+Great|Niconne|Rufina|Simonetta|UnifrakturMaguntia|Walter+Turncoat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+</head>
+
+<body class="animate-in">
+
+  <div class="slider-container">
+    <a href="#" class="toggle">
+      <img class="smoke" src="images/coffeesmoke.png" width=6%>
+      <div class="cup">
+        <img src="images/coffeecup.png" width=6%>
+        <p>Central Perk Menu</p>
+      </div>
+    </a>
+  </div>
+
+  <div class="navbar">
+    <div class="navbartop"></div>
+    <div class="navbarcontent">
+      <div class="navbarleft">
+        <div class="navcontainer">
+          <div class="navline"></div>
+          <div class="navleftheader">
+            <p class="navno">01.</p>
+            <a href="synopsis.html" class="navtext1">Synopsis</a>
+          </div>
+        </div>
+        <div class="navcontainer">
+          <div class="navline"></div>
+          <div class="navleftheader">
+            <p class="navno">02.</p>
+            <a href="cast.html" class="navtext2">Cast & Crew</a>
+          </div>
+        </div>
+        <div class="navcontainer">
+          <div class="navline"></div>
+          <div class="navleftheader">
+            <p class="navno">03.</p>
+            <a href="gallery.html" class="navtext3">Gallery</a>
+          </div>
+        </div>
+      </div>
+      <div class="navbarright">
+        <div class="navcontact">
+          <div class="navline"></div>
+          <div class="navrightheader">
+            <p class="navno">Social</p>
+            <a href="https://www.instagram.com/friends/">Instagram</a>
+            <a href="https://twitter.com/FriendsTV">Twitter</a>
+            <a href="https://www.facebook.com/friends.tv/">Facebook</a>
+          </div>
+        </div>
+        <div class="navquiz">
+          <div class="navline"></div>
+          <div class="navquizheader">
+            <p class="navno">How you doing</p>
+            <a href="quiz.html">Central Nerd quiz</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbarfooter">
+      <div class="footertop">
+        <p>Friends</p>
+      </div>
+      <hr>
+      <div class="footerbottom">
+        <div class="contact">
+          <ul>
+            <li><a href="index.html" style="font-family: 'UnifrakturMaguntia', cursive; font-size: 25px;">Friends</a></li>
+            <li><a href="https://www.facebook.com/friends.tv/">Fb</a></li>
+            <li><a href="https://www.instagram.com/friends/">Ins</a></li>
+            <li><a href="https://twitter.com/FriendsTV">Tw</a></li>
+          </ul>
+        </div>
+
+        <div class="bgmusic">
+          <audio autoplay loop id="myaudio" src="videos/themesong.mp3"></audio>
+          <a onClick="togglePlay()"><i class="fas fa-compact-disc fa-spin"></i></a>
+          <p>We are here for you.</p>
+        </div>
+
+        <div class="available">
+          <ul>
+            <li>Now Available ---</li>
+            <li><a href="https://www.netflix.com/title/70153404">Watch Now ---</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+<div class="restart">
+  <i class="fas fa-sync-alt fa-spin" style="font-size: 2rem;"></i><br>
+  <a href="quiz.html"><p>Restart the Quiz</p></a>
+</div>
+
+
+<div id="quizall">
+  <div class="quiz-container">
+    <div id="start">
+      <span style="font-size: 1.52em;">Think you're an expert on<br>all things Central Perk?<br><br></span>
+      <span style="font-family: 'Simonetta', cursive;">Let's take this quiz and find out!<br>
+      Click to start</span>
+    </div>
+    <div id="quiz" style="display: none">
+            <div id="question"></div>
+            <div id="qImg"></div>
+            <div id="choices">
+                <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+            </div>
+            <div id="timer">
+                <div id="counter"></div>
+                <div id="btimeGauge"></div>
+                <div id="timeGauge"></div>
+            </div>
+            <div id="progress"></div>
+      </div>
+      <div id="scoreContainer"></div>
+  </div>
+</div>
+
+
+<footer>
+      <div class="footertop"></div>
+      <hr>
+      <div class="footerbottom">
+        <div class="gallerycontact">
+          <ul>
+            <li><a href="index.html" style="font-family: 'UnifrakturMaguntia', cursive; font-size: 25px;">Friends</a></li>
+            <li><a href="https://www.facebook.com/friends.tv/">Fb</a></li>
+            <li><a href="https://www.instagram.com/friends/">Ins</a></li>
+            <li><a href="https://twitter.com/FriendsTV">Tw</a></li>
+          </ul>
+        </div>
+
+        <div class="gallerybgmusic">
+          <audio autoplay loop id="myaudio" src="videos/themesong.mp3"></audio>
+          <a onClick="togglePlay()"><i class="fas fa-compact-disc fa-spin"></i></a>
+          <p>We are here for you.</p>
+        </div>
+
+        <div class="galleryavailable">
+          <ul>
+            <li>Now Available ---</li>
+            <li><a href="https://www.netflix.com/title/70153404">Watch Now ---</a></li>
+          </ul>
+        </div>
+
+      </div>
+</footer>
+
+  <div class="quizwelcome"></div>
+    <script src="main.js"></script>
+    <script src="quiz.js"></script>
+  </body>
+
+
+  </html>

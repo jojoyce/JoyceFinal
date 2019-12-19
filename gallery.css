@@ -3,6 +3,8 @@
   width: 100%;
   height: 100vh;
   background-image: url(images/oldpaper.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .galleryheader {
@@ -628,4 +630,46 @@ font-family: 'Walter Turncoat', cursive;
 }
 .galleryavailable li a:hover {
   color: #FF5151;
+}
+
+.quotevideo {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  z-index: 2000;
+  transform: translateX(0);
+  transition: transform 0.4s;
+}
+
+.quotevideo.appear {
+  transform: translateX(0);
+}
+
+.quotevideo video {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+
+.myvidbutton {
+  position: absolute;
+  z-index: 2001;
+  top: 5%;
+  right: 5%;
+  border : 2px dashed lightgrey;
+  border-radius: 50%;
+  width: 8%;
+  height: 14%;
+  font-size: 2rem;
+  font-family: 'Simonetta', cursive;
+  color: lightgrey;
+  display: grid;
+  cursor: pointer;
+  place-items: center;
+  transition: all 0.4s ease-in-out;
+}
+
+.myvidbutton:hover {
+  border: dotted white;
+  color: white;
 }

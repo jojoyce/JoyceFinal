@@ -5,6 +5,7 @@ const navSlider = () => {
   var navText2 = document.querySelector('.navtext2');
   var navText3 = document.querySelector('.navtext3');
   var contactInfo = document.querySelector('.navrightheader');
+  var navQuiz = document.querySelector('.navquizheader');
   var navbarFooter = document.querySelector('.navbarfooter');
 
   burger.addEventListener('click',() => {
@@ -17,6 +18,7 @@ const navSlider = () => {
   }, 400);
     setTimeout (function (){
   navText2.classList.add('appear');
+  navQuiz.classList.add('appear');
 }, 900);
     setTimeout (function (){
 navText3.classList.add('appear');
@@ -24,6 +26,7 @@ navText3.classList.add('appear');
 }else {
   navText1.classList.remove('appear');
   contactInfo.classList.remove('appear');
+  navQuiz.classList.remove('appear');
   navText2.classList.remove('appear');
   navText3.classList.remove('appear');
   navbarFooter.classList.remove('appear');
@@ -50,3 +53,8 @@ myAudio.onplaying = function() {
 myAudio.onpause = function() {
   isPlaying = false;
 };
+
+window.addEventListener("beforeunload", function () {
+  document.body.classList.add("animate-out");
+  nav.classList.add("animate-out");
+});
