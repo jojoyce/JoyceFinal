@@ -9,19 +9,17 @@ As a web developer, I am interested in developing a commercial portfolio for my 
 I became interested in this topic almost on the first day of our course when Zhenzhen talked about doing things we feel passionate about. I started watching the show when I was 16 and have watched the 10 seasons more than 10 times. Also, starting from next month towards next January, a Friends pop-up is happening in Boston in celebration of 25 years since the show debuted. So I think this would be a good opportunity for the show to get more exposure online and a commercial portfolio is definitely a good way to do so.
 
 ### Design and Technical reference:
-There are many great film and TV website examples that I can draw inspiration from, for example:
-1. https://knivesout.movie/ This is my favorite one. I really like the loading page as well as the mousemove animation of the background of this website that creates a sense of 3D experience for the viewers.
-For the mousemove animation effect, I wonder if I can follow this youtube tutorial: youtube.com/watch?v=Trxxw4tdaHQ
-<img src="images/knivesloading.png" alt="knivesoutloading">
-2. https://www.onceuponatimein1969.com/ This is the website for Once Upon a Time in Hollywood. I feel the nostalgic style fits my targeted TV shows "Friends" better. I like the big shaking 1969 at the home page as well as the map of Hollywood created for exploration of celebrities events at that time. 
-I'm still in search for more inspirations right now and will put more references here once I do.
+I draw inspirations mainly from two film promotion websties.
+1. https://www.onceuponatimein1969.com/ This is the website for Once Upon a Time in Hollywood. I feel the nostalgic style fits my targeted TV shows "Friends" better. I like the big shaking 1969 at the home page and the video background.
 <img src="images/1969home.png" alt="1969home">
-<img src="images/1969maps.png" alt="1969map">
+2. http://ladybird.movie/home/ This one is for Lady Bird. I love the simplicity of the overall design, which makes the message of each page really stand out. The dropdown navigation bar is a good way to save space and create interative experience. 
 
+I borrowed visual design elements from both these two websites. For example, I noticed that there is no overflow for either of them, meaning the size of the website is the same as the size of the screen with no scrolling. I thought this would be a good idea. Given that there are already a lot going on just in this window, it would be distracting or exhausting if there is more after the audience scroll. This is why I did the same to my website, no scrolling. Also, I found that the structure of a film promotion website usually consist of a synopsis page that gives audience a general idea of what the show is about, a credit to cast & crew page, a gallery with photos and trailors and a link to get the tickets. So when I was designing the structure of my website, it was bascially the same: a synopsis, a cast&crew, a quote gallery and a link to buy tickets on the home page. Also I've included a little quiz, which was inspired by the webstie for Lady Bird. I think this could potentially add on to the interactive experience of the audience, especially those who are familiar with the show.
+
+As for the technical aspect, I didn't use any js library. Everything is vanilla js that I learned from youtube tutorials. There is one channel I particularyly liked, it's called Dev Ed. He made a lot of amazing videos on responsive navbar, page transition and other animation effect using either js library or vanilla js. His tutorial is very accessible, easy to understand. I has been very helpful to me during my coding process.
 
 ### Process:
-So far I have searched for film and TV website examples to get inspired. Visually speaking, in my imagination my website would look a lot like OnceUponaTimein1969 in its nostalgic style. It should at least host: a home page, a trailer page(that directs viewers to some of the amazing clips in Friends), a map page (that maps out some important events happened in the show), a gallery (that displays some of the behind-the-scene fottages of the show) and a link to get tickets for the Boston pop-up.  I will also try to borrow some aniamtion effects from the KnivesOut and other websites that I can find later. My next steps would invovle more research on some amazing website examples and try to find contents (e.g. videos & images) to put on my website. During the reserach process, I will try out some animation effects tutorial to see if I can fully understand them and use them on my website. 
-
+The design of my final project, as mentioned above, starts with a search for inspirations from current film promotion websites. The two I picked are the one for Once Upon a time in Hollywood and Lady Bird. Based on these two websites, I've decided to structure my website in the following way: a synopsis page, a cast & crew page, a quote gallery and a small quiz. 
 ##### Home page added:
 <img src="READMEimg/home.png">
 ##### Dropdown navbar added:
@@ -35,3 +33,8 @@ So far I have searched for film and TV website examples to get inspired. Visuall
 <img src="READMEimg/gallery.png">
 ##### Each character card is linked with a quotes gallery page:
 <img src="READMEimg/gallerydetailed.png">
+##### Quiz prototype added:
+<img src="READMEimg/quizpage.png">
+
+### Reflection:
+Before this final project, especially during our digital resume assignment, the question I usually asked is what kinds of cool animation or transition effects can I use? But as I was designing this website, the question becomes more about why should I use it here and there and how that makes the content more obvious or engaging. So the focus is still more about the content rather than techniques. It is not about having something for the audience to touch on but why and what kinds of response we'd like to provide. Another thought I had is what interactivity means in a promotion website. I think one of the points here is not to give the information to the audience all at once, but letting them having the opportunity to explore and find the information themselves. I think the excitement of discovering something, whether it is a small navigation burger, or a familiar song, can really make the message stick to mind. 
