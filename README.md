@@ -6,7 +6,7 @@ As a web developer, I am interested in developing a commercial portfolio for my 
 
 ### Inspiration
 
-I became interested in this topic almost on the first day of our course when Prof.Qi talked about doing things we feel passionate about. I started watching the show when I was 16 and have watched the 10 seasons more than 10 times. Also, starting from next month towards next January, a Friends pop-up is happening in Boston in celebration of 25 years since the show debuted. So I think this would be a good opportunity for the show to get more exposure online and a commercial portfolio is definitely a good way to do so.
+I became interested in this topic almost on the first day of our course when Zhenzhen talked about doing things we feel passionate about. I started watching the show when I was 16 and have watched the 10 seasons more than 10 times. Also, starting from next month towards next January, a Friends pop-up is happening in Boston in celebration of 25 years since the show debuted. So I think this would be a good opportunity for the show to get more exposure online and a commercial portfolio is definitely a good way to do so.
 
 ### Design and Technical reference:
 There are many great film and TV website examples that I can draw inspiration from, for example:
